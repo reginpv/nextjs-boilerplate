@@ -1,0 +1,31 @@
+/** Media queries */
+// Mobie devices
+@mixin sm {
+	@media (min-width: #{$screen-sm-min}) {
+		@content;
+	}
+}
+// Medium devices
+@mixin md {
+	@media (min-width: #{$screen-md-min}) {
+		@content;
+	}
+}
+// Large devices
+@mixin lg {
+	@media (min-width: #{$screen-lg-min}) {
+		@content;
+	}
+}
+// XL devices
+@mixin xl {
+	@media (min-width: #{$screen-xl-min}) {
+		@content;
+	}
+}
+// Landscape
+@mixin landscape {
+	@media screen and (orientation:landscape ) and (max-width: #{$screen-lg-min}) {
+		@content;
+	}
+}

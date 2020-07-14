@@ -1,0 +1,15 @@
+/** Sample */
+$default-color: #242431;
+.example {
+  color: $default-color;
+}
+
+// Variables
+@import '_variables';
+@import '_mixin';
+
+// Elements
+@import '_elements';
+
+// Styles
+@import '_styles';
