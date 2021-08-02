@@ -1,4 +1,6 @@
-# Arculus
+# Next.js boilerplate
+
+A Next.js boilerplate with Context and Sass setup.
 
 ## Installation
 
