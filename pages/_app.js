@@ -1,8 +1,13 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'animate.css/animate.min.css';
-import '../resources/scss/app.scss';
+import '../styles/app.scss'
 
-// This default export is required in a new `pages/_app.js` file.
-export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import { GlobalProvider } from '../context/GlobalState';
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <GlobalProvider>
+      <Component {...pageProps} />
+    </GlobalProvider>
+  )
 }
+
+export default MyApp

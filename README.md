@@ -1,11 +1,9 @@
-# nextjs-boilerplate
-Nextjs, SASS, default files and DIRs 
+# Arculus
 
-Next.js boiletplate with:
-- Page's index
-- Layout
-- SASS
+## Installation
 
-Other libs:
-- Bootstrap 4
-- Animate.css
+### Localhost
+- git clone https://github.com/reginpv/nextjs-boilerplate.git .
+- npm i
+- npm run dev
+- visit http://localhost:3000

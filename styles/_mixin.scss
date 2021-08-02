@@ -1,4 +1,3 @@
-/** Media queries */
 // Mobie devices
 @mixin sm {
 	@media (min-width: #{$screen-sm-min}) {
@@ -20,6 +19,12 @@
 // XL devices
 @mixin xl {
 	@media (min-width: #{$screen-xl-min}) {
+		@content;
+	}
+}
+// XXL devices
+@mixin xxl {
+	@media (min-width: #{$screen-xxl-min}) {
 		@content;
 	}
 }
